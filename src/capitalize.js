@@ -7,4 +7,10 @@ const capitalize = (text) => {
   return `${firstChar}${restSubstring}`;
 };
 
+// Примеры использования:
+
+console.log(capitalize('hello'));
+console.log(capitalize(''));
+console.log(capitalize('javascript'));
+
 export default capitalize;
